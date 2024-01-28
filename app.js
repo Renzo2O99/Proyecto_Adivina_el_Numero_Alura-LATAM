@@ -38,7 +38,7 @@ while (numero_usuario != numero_secreto) {
         //! Incrementamos el contador cada vez que el usuario no logre acertar con el número secreto.
         intentos += 1;
         //! alert(`¡Incorrecto! El número ingresado "${numero_usuario}" es incorrecto.`);
-        if (intentos > 10) {
+        if (intentos > intentos_maximo) {
             alert(`¡Has llegado al límite máximo de ${intentos_maximo} intentos permitidos!`);
             break;
         }
