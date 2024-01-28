@@ -13,7 +13,7 @@ let numero_usuario;
 let intentos = 1;
 
 //* Inicializamos una variable para determinar la cantidad máxima de intentos.
-let intentos_maximo = 4;
+let intentos_maximo = 10;
 
 //* Mientras el número sea diferente, ejecuta el bucle.
 while (numero_usuario != numero_secreto) {
